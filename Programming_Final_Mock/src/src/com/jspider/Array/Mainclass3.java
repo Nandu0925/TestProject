@@ -1,0 +1,20 @@
+package com.jspider.Array;
+
+public class Mainclass3 {
+	public static void main(String[] args) {
+		int a[]=new int[5];
+		a[0]=4;
+		a[1]=2;
+		a[2]=6;
+		a[3]=3;
+		a[4]=9;
+		int big=a[0];
+		for(int i=1;i<a.length;i++) {
+			if(a[i]>big) {
+				big=a[i];
+			}
+		}
+		System.out.println(big);
+	}
+
+}
